@@ -1,0 +1,12 @@
+em {
+color: orange;
+text-decoration: underline;
+}
+code {
+color: lime; 
+text-decoration: dotted;
+}
+ol > li:ntn-child(1)> code{
+    color: white;
+    background-color: black;
+}
